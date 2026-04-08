@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "@/components/navBar";
-import { Activity, Dumbbell, ChevronLeft } from "lucide-react";
+import {ChevronLeft } from "lucide-react";
 import Link from "next/link";
 import { mysqlPool } from "@/utils/db";
 import AnimatedWrapper from "@/components/animatedWrapper";
@@ -49,7 +49,7 @@ export default async function page({params}) {
                 </Link>
 
                 <div className="mb-12">
-                    <h2 className="font-headline text-5xl font-bold uppercase tracking-tigher mb-4">{program.name}</h2>
+                    <h2 className="font-headline text-5xl font-bold uppercase tracking-tight mb-4">{program.name}</h2>
                     <p className="text-on-surface-variant text-lg max-w-2xl">
                         {program.description}
                     </p>
@@ -61,7 +61,7 @@ export default async function page({params}) {
               <div key={dayCategory} className="space-y-6">
                 
                 {/* Day Header (e.g., PUSH DAY) */}
-                <div className="flex items-center gap-4 border-l-4 border-primary pl-6">
+                <div className="border-l-4 border-primary pl-6">
                   <h3 className="font-headline text-3xl font-bold uppercase tracking-tight">
                     {dayCategory}
                   </h3>

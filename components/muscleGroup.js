@@ -20,7 +20,7 @@ export default async function MuscleGroupsPage() {
               <img
                 src={group.image}
                 alt={`${group.name} workout`}
-                className="absolute inset-0 w-full h-full object-cover  opacity-20 group-hover:opacity-30 transition-opacity  duration-700 "
+                className="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-30 transition-opacity duration-700 "
               />
 
               <div className="relative p-8 h-full flex flex-col items-center justify-center min-h-[280px] muscle-card-gradient">

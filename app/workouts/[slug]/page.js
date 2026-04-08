@@ -83,9 +83,9 @@ export default async function Page({ params }) {
                     : [];
 
                   return (
-                    <div key={exercise.id} className="p-6 rounded-xl bg-surface-container-low border border-outline-variant hover:border-primary/0 transition-all group">
+                    <div key={exercise.id} className="p-6 rounded-xl bg-surface-container-low border border-outline-variant hover:border-primary/30 transition-all group">
                       
-                      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4">
+                      <div className="mb-4">
                         <h4 className="text-xl font-bold text-on-surface group-hover:text-primary transition-colors">
                           {exercise.name}
                         </h4>
