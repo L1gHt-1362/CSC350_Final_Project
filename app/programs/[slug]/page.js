@@ -129,7 +129,6 @@ export default async function page({params}) {
                           </Link>
                           </div>
                         </div>
-
                       </div>
                     );
                   })}
