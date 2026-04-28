@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState } from "react";
 import { Trash2, Edit, Plus } from "lucide-react";
 import { deleteExercise } from "@/app/api/actions";
